@@ -64,3 +64,27 @@ h2 {
         line-height: 40px; /* Ajusta o line-height para se adequar ao novo tamanho */
     }
 }
+
+#menu {
+    gap: 16px; /* Espaço entre as imagens */
+    padding: 20px; /* Adiciona um pouco de padding ao redor do conteúdo */
+}
+
+#menu img {
+    width: 112px; /* equivalente a w-28 */
+    height: 112px; /* equivalente a h-28 */
+    border-radius: 6px; /* equivalente a rounded-md */
+    transition: transform 300ms ease; /* adiciona uma transição suave */
+}
+
+#menu img:hover {
+    transform: scale(1.1) rotate(-2deg);
+}
+
+#menu div p:first-of-type {
+    font-weight: 700; 
+  }
+  
+  #menu div p:nth-of-type(2) {
+    color: #000; 
+  }
