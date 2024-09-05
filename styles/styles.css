@@ -1,0 +1,66 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: rgb(24 24 27);
+    background-image: url("../assets/bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+  
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+  
+.header-container img {
+    width: 128px; 
+    height: 128px; 
+    border-radius: 50%; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+img:hover {
+    transform: scale(1.1); 
+}
+
+.header-container h1 {
+    font-size: 30px;
+    margin-top: 16px; 
+    margin-bottom: 8px; 
+    font-weight: 700; 
+    color: #ffffff;
+}
+
+.header-container span {
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.header-container span:last-child {
+    background-color: rgb(22 163 74);
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+
+h2 {
+    font-size: 24px; /* Tamanho de texto padrão */
+    line-height: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 36px;
+}
+
+@media (min-width: 768px) {
+    h2 {
+        font-size: 30px; /* Tamanho maior para telas médias e maiores */
+        line-height: 40px; /* Ajusta o line-height para se adequar ao novo tamanho */
+    }
+}
