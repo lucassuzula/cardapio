@@ -87,4 +87,31 @@ h2 {
   
   #menu div p:nth-of-type(2) {
     color: #000; 
+}
+
+.fa-cart-plus {
+    color: white;
+}
+
+button {
+    background-color: #1a202c; 
+    padding-left: 20px;
+    padding-right: 20px; 
+    border-radius: 5px;
+}
+
+.produto p {
+    margin: 5px 0;
+}
+
+.price-text {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.preco {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* equivale a gap-2 no Tailwind */
+    justify-content: space-between;
   }
