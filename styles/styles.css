@@ -63,9 +63,14 @@ h2 {
         font-size: 30px; 
         line-height: 40px; 
     }
+    .grid{
+        grid-template-columns: repeat(2, minman(0, 1fr));
+    }
 }
 
 #menu {
+    display: grid;
+    flex-direction: column;
     gap: 16px; 
     padding: 20px; 
 }
@@ -112,6 +117,14 @@ button {
 .preco {
     display: flex;
     align-items: center;
-    gap: 8px; /* equivale a gap-2 no Tailwind */
+    gap: 8px;
     justify-content: space-between;
   }
+
+.grid {
+    display: flex; 
+    grid-template-columns: 1fr; /*define que terá apenas uma coluna */
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
